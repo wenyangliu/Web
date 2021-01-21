@@ -158,8 +158,8 @@
     //函数封装（简单封装，实际工作使用）
     function scroll() {
         return { //此函数的返回值是对象
-            left: window.pageYOffset || document.body.scrollTop || document.documentElement.scrollTop,
-            right: window.pageXOffset || document.body.scrollLeft || document.documentElement.scrollLeft
+            top: window.pageYOffset || document.body.scrollTop || document.documentElement.scrollTop,
+            left: window.pageXOffset || document.body.scrollLeft || document.documentElement.scrollLeft
         }
     }
 </script>
